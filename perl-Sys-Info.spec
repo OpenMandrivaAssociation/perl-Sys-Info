@@ -1,5 +1,5 @@
 %define upstream_name    Sys-Info
-%define upstream_version 0.72
+%define upstream_version 0.73
 
 Summary:	Fetch information from the host system
 Name:		perl-%{upstream_name}
