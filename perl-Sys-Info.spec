@@ -1,14 +1,14 @@
 %define upstream_name    Sys-Info
-%define upstream_version 0.73
+%define upstream_version 0.7811
 
 Summary:	Fetch information from the host system
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/SYS/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/burak/CPAN-Sys-Info
+Source0:	https://cpan.metacpan.org/authors/id/B/BU/BURAK/Sys-Info-%{upstream_version}.tar.gz
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl-Test-Sys-Info
